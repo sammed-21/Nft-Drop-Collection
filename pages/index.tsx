@@ -84,8 +84,8 @@ const Home: NextPage = () => {
               {address ? (
                   !isClaimIneleigibilityLoading ? (
                     claimIneligibility?.length! > 0 ? (
-                      claimIneligibility?.map((reason)=>(
-                        <p>{reason}</p>
+                      claimIneligibility?.map((reason,id)=>(
+                        <p key={id}>{reason}</p>
                       ))
                     ):(
                       <div>
