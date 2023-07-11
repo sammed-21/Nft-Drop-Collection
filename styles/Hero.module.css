@@ -1,0 +1,58 @@
+.container{
+     width: 100%;
+     justify-content: center;
+     display: flex;
+     flex-wrap: wrap;
+  }
+
+   .main{
+    
+    background:#252426e5;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 10px;
+    margin-top: 8%;
+    align-items: center ;
+    margin: 30px;
+}
+.heroSection{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 20px;
+
+   }
+ .collectionImage{
+    padding-right:20px;
+    
+ }
+   .Container{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   }
+   .claimValue{
+    
+    display: flex;
+    justify-content: center;
+    
+    align-items: center;
+    padding-right: 10px;
+    
+}
+.inputtag{
+    border-radius: 10px;
+    width: 70px;
+    padding: 10px 20px;
+    background-color: black;
+    color: #fff;
+}
+.claimBtn{
+       border-radius: 10px;
+    width: 40px;
+    height: 40px;
+background-color: rgb(255, 255, 255);
+   }
