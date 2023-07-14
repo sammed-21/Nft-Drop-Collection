@@ -66,7 +66,8 @@ const Home: NextPage = () => {
                 <div>
                   <p>Claim Phase : {activeClaimPhase?.metadata?.name}</p>
                   <p>
-                    Price: {ethers.utils.formatUnits(activeClaimPhase?.price)}
+                  Price: {activeClaimPhase?.price ? ethers.utils.formatUnits(activeClaimPhase.price.toString()) : ''}
+                    {/* Price: {ethers.utils.formatUnits(activeClaimPhase?.price)} */}
                   </p>
                 </div>
               ) : (
